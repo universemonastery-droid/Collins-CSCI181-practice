@@ -1,0 +1,100 @@
+body {
+  background-color: rgba(0, 0, 0, 0);
+}
+h1 {
+  color: rgb(54, 255, 14);
+  font-family: "Press Start 2P", "consolas";
+  font-weight: bold;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+  background-color: black;
+}
+h2 {
+  color: rgb(68, 159, 239);
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: xx-large;
+}
+#resumepage {
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1000; /*Idk its not working properly :( */
+}
+img {
+  background-color: black;
+}
+#vvjc {
+  background-color: gray;
+}
+h3 {
+  color: rgb(248, 128, 68);
+  font-family: Ramabhadra;
+  font-size: larger;
+}
+h4 {
+  color: bisque;
+  font-size: large;
+}
+a {
+  color: rgb(113, 113, 227);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: larger;
+}
+#indexheader {
+  background-image: url("/Pictures/astroidbanner.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  padding: 100px 0;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.tagline {
+  font-family: "Press Start 2P", "consolas";
+  color: rgb(54, 255, 14);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border: 2px dashed rgb(54, 255, 14);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  box-shadow: 0 0 15px rgba(54, 255, 15, 0.5);
+}
+#homenav {
+  text-align: center;
+  border-style: groove;
+  border-width: 5px;
+  border-radius: 10px;
+  padding: 5px 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  /*The box is dumb i will fix this im pressed on time :(*/
+}
+#homenavlist {
+  list-style-type: none;
+}
+#resumeheader {
+  background-color: black;
+  border-style: hidden;
+  border-width: 2px;
+  border-radius: 8px;
+  padding: 5px 0;
+  text-align: center;
+  background-image: url("/Pictures/astroidbanner.webp");
+  background-size: auto;
+}
+#resumemain {
+  background-color: black;
+}
+#resumenavlist {
+  list-style-type: none;
+}
+#indexbody {
+  background-color: black;
+}
