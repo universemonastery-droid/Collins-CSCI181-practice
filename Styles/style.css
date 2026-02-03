@@ -25,7 +25,7 @@ img {
   background-color: black;
 }
 #vvjc {
-  background-color: gray;
+  background-color: rgb(176, 176, 176);
 }
 h3 {
   color: rgb(248, 128, 68);
@@ -43,7 +43,7 @@ a {
   font-size: larger;
 }
 #indexheader {
-  background-image: url("/Pictures/astroidbannercopy.jpg");
+  background-image: url("/Pictures/space-hero-img.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
