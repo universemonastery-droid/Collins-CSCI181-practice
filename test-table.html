@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+<header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html" target="_self">Home</a>
+            </li>
+        </ul>
+    </nav>
+</header>  
+<table>
+ <caption>How to calculate specificity</caption>
+  <thead>
+    <tr>
+      <th scope="col">Selector Type</th>
+      <th scope="col">Examples</th>
+      <th scope="col">Weight</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Inline / Style Attribute (highest)</th>
+      <td><code>&lt;p style="color: blue;"&gt;I'm blue&lt;/p&gt;</code></td>
+      <td>1,0,0,0 points</td>
+    </tr>
+    <tr>
+      <th scope="row">ID</th>
+      <td><code>#main-nav</code>, <code>#site-logo</code></td>
+      <td>0,1,0,0 points each</td>
+    </tr>
+    <tr>
+      <th scope="row">Class, Pseudo-Class, Attributes</th>
+      <td><code>.nav-item</code>, <code>nav-item:hover</code>, <code>input[type="text"]</code></td>
+      <td>0,0,1,0 points each</td>
+    </tr>
+    <tr>
+      <th scope="row">Elements &amp; Pseudo-Elements (lowest)</th>
+      <td><code>body</code>, <code>p</code>, <code>::before</code></td>
+      <td>0,0,0,1 points each</td>
+    </tr>
+  </tbody>
+</table>
