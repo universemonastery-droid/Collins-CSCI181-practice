@@ -43,7 +43,7 @@ a {
   font-size: larger;
 }
 #indexheader {
-  background-image: url("./Pictures/space-hero-img.jpg");
+  background-image: url("../Pictures/space-hero-img.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -86,7 +86,7 @@ a {
   border-radius: 8px;
   padding: 5px 0;
   text-align: center;
-  background-image: url("./Pictures/astroidbanner.webp");
+  background-image: url("../Pictures/astroidbanner.webp");
   background-size: auto;
 }
 #resumemain {
