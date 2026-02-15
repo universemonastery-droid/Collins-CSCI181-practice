@@ -1,4 +1,5 @@
 body {
+  background-image: url(../Pictures/stars.jpg);
   background-color: rgb(0, 0, 0);
 }
 h1 {
@@ -55,9 +56,16 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
+  position: relative;
+  width: 100%;
+  z-index: 10;
 }
 #indexh1 {
   background-image: url("../Pictures/astroids-game.jpg");
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
 }
 .tagline {
   font-family: "Press Start 2P", "consolas";
@@ -100,6 +108,10 @@ a {
 }
 #indexbody {
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
 }
 /*--------------------------------------------------------------------*/
 /*This section is for the contact me page*/
@@ -174,4 +186,60 @@ button:hover {
 .course-name {
   font-weight: bold;
   color: #2c3e50;
+}
+/*------------------------------------------*/
+/*Index sticky header v */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+/*Index Project cards*/
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 40px 20px;
+  position: relative;
+  clear: both;
+  margin-top: 200px;
+}
+.card {
+  width: 320px;
+  background: #121212;
+  border: 4px solid #00ff00;
+  padding: 25px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+.card:hover {
+  box-shadow: 0 0 20px #00ff00;
+}
+.card-img {
+  width: 100%;
+  height: auto;
+}
+.card-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 25px;
+  background-color: #45f532;
+  color: #095621;
+  text-decoration: none;
+  font-family: "Press Start 2P", cursive;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+.card-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.card-title {
+  font-family: "Press Start 2P";
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 20px;
 }
