@@ -85,10 +85,13 @@ a {
   border-radius: 20px;
   padding: 10px 10px 10px;
   background-color: rgba(0, 0, 0, 0.55);
-  /*The box is dumb i will fix this im pressed on time :(*/
 }
 #homenavlist {
-  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 10vh;
+  margin: 0;
 }
 #resumeheader {
   background-color: black;
@@ -242,4 +245,67 @@ header {
   font-size: 14px;
   line-height: 1.8;
   margin-bottom: 20px;
+}
+/*Bento-Grid*/
+#bento-body {
+  margin: 0;
+  padding: 20px;
+  background-color: #05070a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/*The Grid Container*/
+.exploration-grid {
+  display: grid;
+  width: 100%;
+  max-width: 1100px;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  margin-top: 40px;
+}
+
+.grid-item {
+  background: #11141d;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.grid-item.wide {
+  grid-column: span 2;
+}
+
+.grid-item.tall {
+  grid-row: span 2;
+}
+
+.item-info {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#homenavlist {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  padding: 0;
 }
