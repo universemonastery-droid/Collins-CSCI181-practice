@@ -20,6 +20,8 @@
     <title>Home - Ryan Collins Portfolio</title>
   </head>
   <body id="indexbody">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <h1 id="indexh1">Hello, Welcome to my Website!</h1>
 
     <hr />
@@ -31,9 +33,9 @@
           Mission: Pass this class! <br />Status: Navigating to spacing out
           belt...
         </div>
-        <nav id="homenav">
+        <nav id="homenav" aria-label="Primary navigation">
           <ul id="homenavlist">
-            <li><a href="/">Home</a></li>
+            <li><a href="index.html" aria-current="page">Home</a></li>
             <br />
             <li>
               <a href="resume.html" target="_self" title="Check out my Resume!"
@@ -59,7 +61,7 @@
         </nav>
       </div>
     </header>
-    <main class="card-container">
+    <main id="main-content" class="card-container">
       <!--Fist Card-->
       <div class="card">
         <img
@@ -117,7 +119,7 @@
         >
           <figure class="flex flex-col h-full">
             <blockquote class="flex-grow">
-              <p class="text-gray-300 italic mb-6">
+              <p class="text-white italic mb-6">
                 "Ryan's work on the Spaghetti Orb physics was mind-blowing.
                 Truly a unique developer with a great eye for detail."
               </p>
@@ -144,7 +146,7 @@
         >
           <figure class="flex flex-col h-full">
             <blockquote class="flex-grow">
-              <p class="text-gray-300 italic mb-6">
+              <p class="text-white italic mb-6">
                 "The Retro Spreadsheet tool has saved my team hours of work. The
                 UI is nostalgic yet incredibly functional."
               </p>
@@ -171,7 +173,7 @@
         >
           <figure class="flex flex-col h-full">
             <blockquote class="flex-grow">
-              <p class="text-gray-300 italic mb-6">
+              <p class="text-white italic mb-6">
                 "Nebula Weather is the only app I use now. Ryan really knows how
                 to blend data with a compelling aesthetic."
               </p>

@@ -7,10 +7,11 @@
     <title>Contact Me!</title>
   </head>
   <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header><h1>Contact Me!</h1></header>
     <hr />
     <section>
-      <nav id="contact_nav">
+      <nav id="contact_nav" aria-label="Primary navigation">
         <ul id="contact_nav_list">
           <li>
             <a href="index.html" target="_self" title="Back to hompage..."
@@ -27,41 +28,43 @@
       </nav>
     </section>
     <hr />
-    <section id="contact_table_section">
-      <table id="contact_table">
-        <tr>
-          <th id="tellmeurthoughts" colspan="2">TELL ME YOUR THOUGHTS!</th>
-        </tr>
+    <main id="main-content">
+      <section id="contact_table_section">
+        <table id="contact_table">
+          <tr>
+            <th id="tellmeurthoughts" colspan="2">TELL ME YOUR THOUGHTS!</th>
+          </tr>
 
-        <tr>
-          <td>
-            <label>Full Name:</label><br />
-            <input type="text" placeholder="First, Last" />
-          </td>
-          <td rowspan="2">
-            <label>Your Message:</label><br />
-            <textarea rows="5" placeholder="TELL ME YOUR SECRETS"></textarea>
-          </td>
-        </tr>
+          <tr>
+            <td>
+              <label>Full Name:</label><br />
+              <input type="text" placeholder="First, Last" />
+            </td>
+            <td rowspan="2">
+              <label>Your Message:</label><br />
+              <textarea rows="5" placeholder="TELL ME YOUR SECRETS"></textarea>
+            </td>
+          </tr>
 
-        <tr>
-          <td>
-            <label>Your Email:</label><br />
-            <input type="email" placeholder="youremail@email.com" />
-          </td>
-        </tr>
+          <tr>
+            <td>
+              <label>Your Email:</label><br />
+              <input type="email" placeholder="youremail@email.com" />
+            </td>
+          </tr>
 
-        <tr>
-          <td colspan="2" style="text-align: center">
-            <button
-              type="button"
-              onclick="alert('This is a practice button! No data was sent.')"
-            >
-              Send Message
-            </button>
-          </td>
-        </tr>
-      </table>
-    </section>
+          <tr>
+            <td colspan="2" style="text-align: center">
+              <button
+                type="button"
+                onclick="alert('This is a practice button! No data was sent.')"
+              >
+                Send Message
+              </button>
+            </td>
+          </tr>
+        </table>
+      </section>
+    </main>
   </body>
 </html>
