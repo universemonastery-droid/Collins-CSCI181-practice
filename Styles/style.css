@@ -41,7 +41,7 @@ a {
   font-size: larger;
 }
 #indexheader {
-  background-image: url("./Pictures/astroidbanner.webp");
+  background-image: url("../Pictures/astroidbanner.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -58,7 +58,7 @@ a {
   z-index: 10;
 }
 #indexh1 {
-  background-image: url("./Pictures/astroids-game.jpg");
+  background-image: url("../Pictures/astroids-game.jpg");
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -91,7 +91,7 @@ a {
   margin: 0;
 }
 #resumeheader {
-  background-color: rgba(0, 0, 0, 0.522);
+  background-color: rgb(0, 0, 0);
   border-style: hidden;
   border-width: 2px;
   border-radius: 8px;
@@ -196,7 +196,7 @@ header {
   position: static;
   top: 0;
   z-index: 1000;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
 }
 /*Index Project cards*/
 .card-container {
