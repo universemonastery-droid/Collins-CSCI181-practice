@@ -13,10 +13,11 @@ h2 {
   font-size: xx-large;
 }
 #resumepage {
-  color: white;
+  color: rgb(255, 255, 255);
+  background-color: #000;
   font-family: monospace;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 img {
   background-color: var(--bg-color);
@@ -40,7 +41,7 @@ a {
   font-size: larger;
 }
 #indexheader {
-  background-image: url("../Pictures/astroidbanner.webp");
+  background-image: url("./Pictures/astroidbanner.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,11 +58,11 @@ a {
   z-index: 10;
 }
 #indexh1 {
-  background-image: url("../Pictures/astroids-game.jpg");
+  background-image: url("./Pictures/astroids-game.jpg");
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
 }
 .tagline {
   font-family: "Press Start 2P", "consolas";
@@ -90,17 +91,17 @@ a {
   margin: 0;
 }
 #resumeheader {
-  background-color: var(--bg-color);
+  background-color: rgba(0, 0, 0, 0.522);
   border-style: hidden;
   border-width: 2px;
   border-radius: 8px;
   padding: 5px 0;
   text-align: center;
-  background-image: url("../Pictures/astroidbanner.webp");
+  background-image: url("./Pictures/astroidbanner.webp");
   background-size: auto;
 }
 #resumemain {
-  background-color: var(--bg-color);
+  background-color: rgb(0, 0, 0);
 }
 #resumenavlist {
   list-style-type: none;
@@ -167,24 +168,27 @@ button:hover {
   border-collapse: collapse;
   margin: 20px 0;
   font-family: "Montserrat", sans-serif;
-  background-color: #ffffff;
+  background-color: #5e5e5e4b;
 }
 .course-table th {
-  background-color: var(--bg-color);
-  color: #333;
+  background-color: rgba(128, 128, 128, 0.367);
+  color: #0088ff;
   text-align: left;
   padding: 12;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #000000;
 }
 .course-table td {
   padding: 12px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #000000;
   vertical-align: top;
   line-height: 2;
 }
 .course-name {
   font-weight: bold;
-  color: #2c3e50;
+  color: #ffffff;
+}
+.course-discription {
+  color: #ccc;
 }
 /*------------------------------------------*/
 /*Index sticky header v */
@@ -192,7 +196,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
 }
 /*Index Project cards*/
 .card-container {
@@ -471,3 +475,4 @@ body.dark {
   font-size: 0.7rem;
   box-shadow: 0 0 10px #ff0000;
 }
+/*For my Calculator for funzies*/
