@@ -99,6 +99,7 @@ a {
   text-align: center;
   background-image: url("./Pictures/astroidbanner.webp");
   background-size: auto;
+  position: sticky;
 }
 #resumemain {
   background-color: rgb(0, 0, 0);
