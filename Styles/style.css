@@ -97,9 +97,9 @@ a {
   border-radius: 8px;
   padding: 5px 0;
   text-align: center;
-  background-image: url("./Pictures/astroidbanner.webp");
+  background-image: url("../Pictures/astroidbanner.webp");
   background-size: auto;
-  position: sticky;
+  position: static;
 }
 #resumemain {
   background-color: rgb(0, 0, 0);
