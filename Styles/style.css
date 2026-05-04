@@ -99,12 +99,15 @@ a {
   text-align: center;
   background-image: url("../Pictures/astroidbanner.webp");
   background-size: auto;
+  position: static;
 }
 #resumemain {
   background-color: rgb(0, 0, 0);
+  position: static;
 }
 #resumenavlist {
   list-style-type: none;
+  position: static;
 }
 #indexbody {
   background-color: var(--bg-color);
